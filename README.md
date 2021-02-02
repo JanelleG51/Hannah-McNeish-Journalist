@@ -21,12 +21,31 @@ The website has been designed to showcase the client’s work ensuring all visua
 # UX
 
 ## Target Audience 
+Those that work in the media and related industries are the primary target audience for this site as this will assist in achieving the goal of generating further work. However, those seeking to carry out research in the areas of the clients work and those with a general interest in the client's investigative areas are a close secondary audience.
 
 ## User Stories 
+
+### New users
+1. As a new user, I would like to understand the sites purpose at first glance.
+2. As a new user, I would like the sites navigation to be intuitive. 
+3. As a new user, I expect control over video/media playback.
+4. As a new user, I expect all images to be of high quality.
+5. As a new user, I expect appropriate feedback for any interactive elements.
+
+### Potential Clients 
+1. As a potential client, I want the site to be up to date.
+2. As a potential client, I want the contact process to be easily visible and uncomplicated.
+3. As a potential client, I expect to receive feedback when submitting the Contact Form.
+
+### Returning Users
+1. As a returning user, I would like to be notified of any new content.
+
+
 
 # Visuals 
 
 ## Photography and Video Content
+
 
 ## Fonts
 
