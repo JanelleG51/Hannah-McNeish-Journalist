@@ -1,5 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700&display=swap');
 
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    
+}
 body{
-    font-family: 'Playfair Display', Arial, sans-serif;
+    color: #040404;
+    font-family: Raleway, Arial, sans-serif;
+}
+
+h2{
+    color: #040404;
+    font-family: 'Playfair Display';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#branding{
+    float: left;
+    font-size: 300%;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+#menu{
+    font-size: 150%;
+    list-style-type: none;
+    letter-spacing: 3px;
+    float: right;
+
+}
+
+#menu li{
+    float: left;
+    margin-right: 50px
+    
 }
