@@ -21,23 +21,21 @@
 
 <body>
     <header>
-        <div>
-            <a href="index.html">
-                <h2 id="branding">Hannah McNeish | Journalist</h2>
-            </a>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Library</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="index.html" aria-label="link to homepage">
+                        <h2 id="branding">Hannah McNeish | Journalist</h2>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                <nav id="nav" class="nav-links-container nav-bar-item" aria-label="main menu">
+                    <a href="index.html" class="active nav-bar-item" aria-label="current page">Home</a>
+                    <a href="#" class="nav-bar-item" aria-label="link to library">Library</a>
+                    <a href="#" class="nav-bar-item" aria-label="link to contact page">Contact</a>
+                </nav>
+                </div>
+            </div>
         </div>
     </header>
     <section>
@@ -52,7 +50,6 @@
     <footer>
         social links in here
     </footer>
-
 </body>
 
 </html>
