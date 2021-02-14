@@ -26,7 +26,7 @@ div a{
 /*---------------navigation bar---------------*/
 
 #branding{
-    font-size: 35px;
+    font-size: 100%;
     padding-top: 35px;
     padding-left: 35px;
 }
@@ -40,7 +40,7 @@ div a{
 .menu-item{
     color: inherit;
     letter-spacing: 3px;
-    font-size: 25px;
+    font-size: 100%;
     margin-right: 20px;
     padding-bottom: 15px;
     
@@ -56,4 +56,37 @@ div a{
 
 /*---------------home page---------------*/
 
+.hero-image{
+    height: 700px;
+    width: 100%;
+}
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100%;
+    font-family: 'Raleway';
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#text-overlay{
+   
+    width: 300px;
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 350px;
+    right: 350px;
+    position: fixed;
+    
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
