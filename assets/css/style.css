@@ -10,6 +10,7 @@
 body{
     color: #040404;
     font-family: 'Raleway', Arial, sans-serif;
+    
 }
 
 h2{
@@ -17,11 +18,22 @@ h2{
     font-family: 'Playfair Display';
     letter-spacing: 3px;
     text-transform: uppercase;
+    
 }
 
 div a{
     text-decoration: none;
 }
+
+div h3{
+    font-size: 150%;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 /*---------------navigation bar---------------*/
 
@@ -54,39 +66,80 @@ div a{
    border-bottom: 2px solid #040404;
 }
 
-/*---------------home page---------------*/
+/*---------------hero image---------------*/
 
 .hero-image{
     height: 700px;
     width: 100%;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.hero-container, .about-me-container{
+    position: relative;
+    text-align: center;
+}
+
+.hero-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#040404;
+    font-size: 75%;
+    font-family: 'Playfair Display';
+    letter-spacing: 3px;
+    text-align: center;
+    width: 450px;
+    height: 300px;
+    background-color:rgba(255,255,255, 0.6);
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+/*---------------about section---------------*/
+
+.about-me{
+    height: 350px;
+    width: 100%;
+    background-color: #040404;
+}
+
+.about-me-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 100%;
     font-family: 'Raleway';
     letter-spacing: 3px;
     text-align: center;
+    width: 450px;
+    height: 300px;
+    background-color:rgba(255,255,255, 0.6);
+    padding-top: 40px;
+
 }
 
-#text-overlay{
-   
-    width: 300px;
-    height: 350px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(241, 109, 107, .7);
-    bottom: 350px;
-    right: 350px;
-    position: fixed;
+/*---------------image and bio---------------*/
+.bio-image-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.bio-image{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
     
 }
 
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
+.bio-background-image{
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+
 }
+/*---------------footer---------------*/
