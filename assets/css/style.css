@@ -186,6 +186,9 @@ footer{
     line-height: 7px;
     color:#040404;
     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
     
 }
 
@@ -195,4 +198,34 @@ footer{
 
 #footer-spacing{
     padding: 25px;
+}
+
+
+/*---------------contact page---------------*/
+
+.contact-background{
+    height: 950px;
+    width: 100%;
+    background-color: rgba(32, 28, 28, 0.315);
+}
+
+.form-position{
+    margin-top: 250px;
+    
+}
+
+.btn{
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.btn-primary{
+    color: #040404;
+    background-color: white;
+    border-color: white;
+
 }

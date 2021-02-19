@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="The site allows a view and gain an understanding of the work undertaken by Hannah McNeish">
-    <meta name="keywords" content="investigative journalism, public health, ethical health reporting, human rights, photography">
+    <meta name="keywords"
+        content="investigative journalism, public health, ethical health reporting, human rights, photography">
     <meta name="author" content="Hannah McNeish">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -21,7 +22,7 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
                 <a class="navbar-logo" href="index.html">
-                   <h2 id="branding">Hannah McNeish | Journalist</h2>
+                    <h2 id="branding">Hannah McNeish | Journalist</h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -30,22 +31,54 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav nav-links-container">
-                        <a class="nav-link active menu-item" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link menu-item" href="#">Library</a>
-                        <a class="nav-link menu-item" href="#">Contact</a>
+                        <a class="nav-link menu-item" href="index.html">Home</a>
+                        <a class="nav-link menu-item" href="library.html">Library</a>
+                        <a class="nav-link active menu-item" aria-current="page" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <section>
-        Place carousel in here.
-    </section>
-    <section>
-        Place press content in here.
-    </section>
-    <section>
-        Other content.
+        <div class="container-fluid">
+            <div class="row g-0 contact-background">
+                <div class="col-2"></div>
+                <div class="col-8 form-position">
+                    <form>
+
+                        <legend>Contact Hannah</legend>
+                        <div class="mb-3">
+                            <label for="fname" class="form-label">Full Name</label>
+                            <input type="text" id="fname" class="form-control" placeholder="Enter you name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="reason" class="form-label">Reason for Contact</label>
+                            <select id="reason" class="form-select">
+                                <option>Please select a reason</option>
+                                <option>Journalism</option>
+                                <option>Photography</option>
+                                <option>Copywriting</option>
+                                <option>General</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Please write your message here"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                    </form>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
     </section>
     <footer>
         <div class="container-fluid">
@@ -55,9 +88,9 @@
 
                 </div>
                 <div class="col-sm-4">
-                    <p class="inline-block"><a href="contact.html" class="footer-contact-link">Contact Hannah <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </a></p>
-                    
+                    <p class="inline-block"><a href="contact.html" class="footer-contact-link">Contact Hannah <i
+                                class="fa fa-envelope" aria-hidden="true"></i>
+                        </a></p>
                 </div>
                 <div class="col-sm-4">
                     <ul class="list-inline social-links">
@@ -73,22 +106,22 @@
                                 <span class="sr-only">YouTube</span>
                             </a>
                         </li>
-                        
+
                         <li class="list-inline-item">
                             <a target="_blank" href="https://uk.linkedin.com/">
                                 <i class="fab fa-linkedin" aria-hidden="true"></i>
                                 <span class="sr-only">LinkedIn</span>
                             </a>
-                            </li>
-                            <li class="list-inline-item">
+                        </li>
+                        <li class="list-inline-item">
                             <a target="_blank" href="https://soundcloud.com/">
                                 <i class="fab fa-soundcloud" aria-hidden="true"></i>
                                 <span class="sr-only">SoundCloud</span>
                             </a>
-                            </li>
+                        </li>
                     </ul>
                 </div>
-        
+
             </div>
         </div>
     </footer>
