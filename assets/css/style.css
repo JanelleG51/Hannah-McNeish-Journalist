@@ -30,9 +30,15 @@ div h3{
     font-size: 150%;
 }
 
+
+
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 
@@ -42,6 +48,7 @@ div h3{
     font-size: 1.5vw;
     padding-top: 35px;
     padding-left: 35px;
+    line-height: 0.75;
 }
 
 .nav-links-container{
@@ -61,6 +68,8 @@ div h3{
     font-size: 100%;
     margin-right: 20px;
     padding-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 1;
     
 }
 
@@ -143,21 +152,47 @@ div h3{
 
 }
 /*---------------footer---------------*/
+/*---------------credit to ci walkthrough for footer styling---------------*/
 
-.footer-container{
+
+footer{
     background-color: rgba(32, 28, 28, 0.315);
-    height: 80px;
+    min-height: 100px;
     text-align: center;
 }
 
 .footer-contact-link{
     color: #040404;
     padding-top: 25px;
-    font-size: 100%;
+    font-size: 15px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 
 }
 
-.social-container{
-    padding-top: 25px;
+.footer-contact-link:hover{
+    color: white;
+
 }
 
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    color:#040404;
+    transition: all 0.35s ease-in-out;
+    
+}
+
+.social-links li a i:hover{
+    background-color: white;
+}
+
+#footer-spacing{
+    padding: 25px;
+}
