@@ -92,7 +92,7 @@ div h3{
     position: relative;
     text-align: center;
 }
-/*credit to w3school for the overlay position code*/
+/*credit to w3school for the overlay position code first 4 lines*/
 .hero-text-overlay { 
     position: absolute;
     top: 50%;
@@ -228,4 +228,11 @@ footer{
     background-color: white;
     border-color: white;
 
+}
+
+
+
+.carousel-inner > .carousel-item > img {
+  height:550px;
+  width: 100px;
 }
