@@ -231,8 +231,14 @@ footer{
 }
 
 
-
 .carousel-inner > .carousel-item > img {
-  height:550px;
-  width: 100px;
+  width:450px;
+  height:500px;
+  border-bottom: white;
+}
+
+.carousel-padding{
+    padding-top: 125px;
+    padding-bottom: 25px;
+
 }
