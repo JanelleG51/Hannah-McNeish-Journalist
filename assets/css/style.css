@@ -41,11 +41,14 @@ div h3{
     display: inline-block;
 }
 
+legend{
+    font-display: inline-block;
+}
 
 /*---------------navigation bar---------------*/
 
 #branding{
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     padding-top: 35px;
     padding-left: 35px;
     line-height: 0.75;
