@@ -18,25 +18,22 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
-                <a class="navbar-logo" href="index.html">
-                    <h2 id="branding">Hannah McNeish | Journalist</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav nav-links-container">
-                        <a class="nav-link menu-item" href="index.html">Home</a>
-                        <a class="nav-link menu-item" href="library.html">Library</a>
-                        <a class="nav-link active menu-item" aria-current="page" href="contact.html">Contact</a>
-                    </div>
+    <header class="row">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white navbar-padding">
+
+            <a class="navbar-logo" href="index.html">Hannah McNeish | Journalist</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end toggler-text" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link menu-item" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link menu-item" href="library.html">Library</a>
+                    <a class="nav-link active menu-item" href="contact.html">Contact</a>
                 </div>
             </div>
+
         </nav>
     </header>
     <section>
@@ -69,7 +66,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3" placeholder="Please write your message here"></textarea>
+                            <textarea class="form-control" id="message" rows="3"
+                                placeholder="Please write your message here"></textarea>
                         </div>
                         <button type="submit" class="btn btn-dark">Submit</button>
 
