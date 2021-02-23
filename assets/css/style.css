@@ -8,6 +8,7 @@ body
     height: auto;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     color: #040404;
     font-family: 'Raleway', Arial, sans-serif;
 }
@@ -28,9 +29,12 @@ div h3{
     font-size: 150%;
 }
 
+.row>*{
+    padding-right: 0;
+}
+
 .container-fluid{
     padding: 0;
-    margin: 0;
 }
 
 .inline-block{
@@ -45,6 +49,7 @@ legend{
 
 .navbar-padding{
     padding-top: 25px;
+    padding-right: 10px;
 }
 
 .navbar-logo{
@@ -61,6 +66,10 @@ legend{
 
 .toggler-text{
     text-align: right;
+}
+
+.button-border{
+    border-color: transparent;
 }
 
 
@@ -85,56 +94,20 @@ legend{
 
 /*---------------hero image---------------*/
 
+hero.column{
+    padding: 0;
+}
+
 .hero-image{
     height: 700px;
     width: 100%;
 }
 
-.hero-container, .about-me-container{
-    position: relative;
-    text-align: center;
-}
-/*credit to w3school for the overlay position code first 4 lines*/
-.hero-text-overlay { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:#040404;
-    font-size: 75%;
-    font-family: 'Playfair Display';
-    letter-spacing: 3px;
-    text-align: center;
-    width: 450px;
-    height: 300px;
-    background-color:rgba(255,255,255, 0.6);
-    padding-top: 40px;
-    text-transform: uppercase;
-}
+
 
 /*---------------about section---------------*/
 
-.about-me{
-    height: 350px;
-    width: 100%;
-    background-color: white;
-}
 
-.about-me-overlay{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #040404;
-    font-family: 'Raleway';
-    letter-spacing: 3px;
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    background-color:rgba(32, 28, 28, 0.315);
-    padding-top: 40px;
-
-}
 
 /*---------------image and bio---------------*/
 
@@ -161,6 +134,11 @@ footer{
     background-color: rgba(32, 28, 28, 0.315);
     min-height: 100px;
     text-align: center;
+    width: 100%;
+}
+
+.footer-row{
+    margin-right: 0;
 }
 
 .footer-contact-link{
