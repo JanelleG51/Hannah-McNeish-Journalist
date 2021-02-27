@@ -30,9 +30,6 @@ div h3{
     display: inline-block;
 }
 
-legend{
-    font-display: inline-block;
-}
 
 /*---------------navigation bar---------------*/
 
@@ -91,6 +88,7 @@ legend{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 
 }
 /*--------------------credit to csstricks.com for aligment of text overlay customised to suit this project---------*/
@@ -102,6 +100,8 @@ legend{
    transform: translate(-50%, -50%);
    color: #040404;
    text-align: center;
+   padding-left: 25px;
+   padding-right: 25px;
    
    
 }
@@ -127,6 +127,45 @@ h2{
 
 }
 
+/*---------------about section---------------*/
+
+#about-row-background{
+    background: url('../images/birds-on-a-wire.jpg');
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.about-row-text{
+   background-color: rgba(240, 240, 240, 0.3) ;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #040404;
+   text-align: center;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+/*---------------bio section---------------*/
+
+#bio-row-background{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(239, 239, 239)
+   
+
+}
+
+.profile-image{
+    object-fit: contain;
+}
 
 /*---------------footer---------------*/
 /*---------------credit to ci walkthrough for footer styling---------------*/
