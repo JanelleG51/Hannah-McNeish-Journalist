@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700&display=swap');
 
-/*-------------body--------------*/
+/*--------------------------------------body--------------*/
 
 body 
 {
@@ -12,7 +12,6 @@ body
     color: #040404;
     font-family: 'Raleway', Arial, sans-serif;
 }
-
 
 div a, nav a{
     text-decoration: none;
@@ -30,8 +29,7 @@ div h3{
     display: inline-block;
 }
 
-
-/*---------------navigation bar---------------*/
+/*----------------------------------------navigation bar---------------*/
 
 .navbar-padding{
     padding-top: 25px;
@@ -73,7 +71,9 @@ div h3{
    border-bottom: 2px solid #040404;
 }
 
-/*---------------hero image---------------*/
+/*----------------------------------------------end of navbar---------------*/
+
+/*-----------------------------------------------home page---------------*/
 
 #hero-image-row{
     background: url('../images/hero-image-newspaper-2.jpg');
@@ -98,7 +98,6 @@ div h3{
    padding-left: 25px;
    padding-right: 25px;
    
-   
 }
 
 h1{
@@ -121,8 +120,6 @@ h2{
   padding-bottom: 15px;
 
 }
-
-/*---------------about section---------------*/
 
 #about-row-background{
     background: url('../images/birds-on-a-wire.jpg');
@@ -148,8 +145,6 @@ h2{
    padding-right: 25px;
 }
 
-/*---------------profile section---------------*/
-
 .profile-row{
     height: auto;
     background-color: rgb(239, 239, 239)
@@ -159,11 +154,10 @@ h2{
     margin: 50px;
 }
 
+/*-----------------------------------end of home page-----------*/
 
-/*---------------footer---------------*/
+/*---------------------------------------footer---------------*/
 /*---------------credit to ci walkthrough for footer styling---------------*/
-
-
 footer{
     background-color: rgba(32, 28, 28, 0.315);
     min-height: 100px;
@@ -212,32 +206,9 @@ footer{
 #footer-spacing{
     padding: 25px;
 }
+/*-------------------------------------end of footer--------------*/
 
-
-/*---------------contact page---------------*/
-
-.contact-background{
-    height: 950px;
-    width: 100%;
-    background-color: rgba(32, 28, 28, 0.315);
-}
-
-.form-position{
-    margin-top: 250px;
-    
-}
-
-.btn{
-
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-
-}
-
-
-/*---------------library page---------------*/
+/*-------------------------------------library page---------------*/
 
 .carousel-padding{
     padding-top: 125px;
@@ -261,4 +232,32 @@ footer{
     margin-bottom: 15px;
 }
 
+.card-logo{
+    height: 225px;
+}
 
+/*---------------------------------------end of library page-----------*/
+
+/*------------------------------------------contact page---------------*/
+
+.contact-background{
+    height: 950px;
+    width: 100%;
+    background-color: rgba(32, 28, 28, 0.315);
+}
+
+.form-position{
+    margin-top: 250px;
+    
+}
+
+.btn{
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+/*----------------------------------end of contact page-----------*/
