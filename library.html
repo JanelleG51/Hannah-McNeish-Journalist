@@ -19,98 +19,162 @@
 
 <body>
     <div class="container-fluid">
-    <header class="row">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white navbar-padding">
+        <header class="row">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white navbar-padding">
 
-            <a class="navbar-logo" href="index.html">Hannah McNeish | Journalist</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end toggler-text" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link menu-item" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-link active menu-item" href="library.html">Library</a>
-                    <a class="nav-link menu-item" href="contact.html">Contact</a>
+                <a class="navbar-logo" href="index.html">Hannah McNeish | Journalist</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end toggler-text" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link menu-item" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active menu-item" href="library.html">Library</a>
+                        <a class="nav-link menu-item" href="contact.html">Contact</a>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+        <section class="row">
+            <div class="col-3"></div>
+
+            <div class="col-sm-12 col-lg-6 carousel-padding">
+                <!--credit to Bootstrap for carousel-->
+                <div id="library-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/woman-harvesting-in-field.jpg" class="d-block w-100"
+                                alt="A women in a field harvesting">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/ssudan-refugee-camp.jpg" class="d-block w-100"
+                                alt="A women with a camel in South Sudan refugee camp">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/ssudan-woman-carrying-baby.jpg" class="d-block w-100"
+                                alt="A girl carrying a baby in a UN camp">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/ssudan-man-in-hospital-bed.jpg" class="d-block w-100"
+                                alt="A man in a hospital bed in South Sudan">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#library-carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#library-carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--credit end-->
+                <div class="col-3"></div>
+            </div>
+        </section>
+        <section>
+            <div class="row row-spacing">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <iframe width="auto" height="315" src="https://www.youtube.com/embed/y8LhUdpNkXg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">International Journalism Festival 2019</h5>
+                            <p class="card-text">When working in sensitive medical environments with people at their
+                                most vulnerable, what are journalists' obligations to
+                                their sources? </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <iframe width="auto" height="315" src="https://www.youtube.com/embed/feCZqPs8Gsc"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">BBC News 2017</h5>
+                            <p class="card-text">In northern Kenya, the dry conditions have increased the
+                                commercialisation potential of camel milk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <iframe width="auto" height="315" src="https://www.youtube.com/embed/7jHuyCTBpgw"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">INews24 2015</h5>
+                            <p class="card-text">Islamists storm Kenyan University - 15 killed.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-        </nav>
-    </header>
-    <section class="row">
-                <div class="col-3"></div>
-
-                <div class="col-sm-12 col-lg-6 carousel-padding">
-                    <!--credit to Bootstrap for carousel-->
-                    <div id="library-carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/images/woman-harvesting-in-field.jpg" class="d-block w-100"
-                                    alt="A women in a field harvesting">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/ssudan-refugee-camp.jpg" class="d-block w-100"
-                                    alt="A women with a camel in South Sudan refugee camp">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/ssudan-woman-carrying-baby.jpg" class="d-block w-100"
-                                    alt="A girl carrying a baby in a UN camp">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/ssudan-man-in-hospital-bed.jpg" class="d-block w-100"
-                                    alt="A man in a hospital bed in South Sudan">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#library-carousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#library-carousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <!--credit end-->
-                    <div class="col-3"></div>
-                </div>
-    </section>
-    <section class="row article-row">
-                <div class="col-sm-12 col-lg-4 card-spacing">
+            <div class="row row-spacing">
+                <div class=" col-sm-12 col-lg-4">
                     <div class="card">
-                        <img src="assets/images/rwanda-man-harversting-in-field.jpg" class="card-img-top"
-                            alt="A man harversting in a green field">
                         <div class="card-body">
-                            <h5 class="card-title">The Gurdian 2016</h5>
-                            <p class="card-text">Farmers in Sudan battle climate change and hunger as desert creeps
-                                closer.</p>
-                            <a href="https://www.theguardian.com/global-development/2016/dec/19/sudan-faremers-battle-climate-change-hunger-desertification"
-                                target="_blank" class="btn btn-secondary">Read Article</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-4 card-spacing">
-                    <div class="card">
-                        <img src="assets/images/ssudan-young-boy-eating.jpg" class="card-img-top"
-                            alt="A young child eats a piece of fruit">
-                        <div class="card-body">
-                            <h5 class="card-title">International Women's Media Foundation 2015</h5>
-                            <p class="card-text">Rampant corruption in Tanzania keeps fruits of the many in hands of the
-                                few.</p>
-                            <a href="https://www.iwmf.org/reporting/rampant-corruption-in-tanzania-keeps-fruits-of-the-many-in-hands-of-the-few/"
+                            <h5 class="card-title">Aljazeera 2019</h5>
+                            <p class="card-text">Kyrgyzstan’s space women blast off from male dominance.</p>
+                            <a href="https://www.aljazeera.com/news/2019/6/24/kyrgyzstans-space-women-blast-off-from-male-dominance"
                                 target="_blank" class="btn btn-secondary">Read Article</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-4">
-                    
-                </div>
-    
-            <div class="row article-row">
-                <div class="col-sm-12 col-lg-4 card-spacing">
                     <div class="card">
-                        <img src="assets/images/ssudan-family.jpg" class="card-img-top" alt="A family">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Reuters 2019</h5>
+                            <p class="card-text">Kenya issues smart ID cards to protect fishing and forests.</p>
+                            <a href="https://www.reuters.com/article/us-kenya-fishing-forest-feature/kenya-issues-smart-id-cards-to-protect-fishing-and-forests-idUSKBN1X713P" target="_blank" class="btn btn-secondary">Read Article</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">World Economic Forum 2018</h5>
+                            <p class="card-text">These Kenyan farmers are preparing for the future - by rearing crickets.
+                            </p>
+                            <a href="https://www.weforum.org/agenda/2018/09/cricket-farming-hops-ahead-as-kenyans-catch-superfood-bug/"
+                                target="_blank" class="btn btn-secondary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+            <div class="row row-spacing">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Huffington Post 2017</h5>
+                            <p class="card-text">A Deadly Disease Threatens To Regain Ground Deep In The African Jungle.
+                            </p>
+                            <a href="https://www.huffingtonpost.co.uk/entry/sleeping-sickness-congo_n_59afe85fe4b0b5e53102784e?ri18n=true"
+                                target="_blank" class="btn btn-secondary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">The New Humanitarian 2017</h5>
                             <p class="card-text">The Warrior Women Fighting to Save Endangered Lions in Kenya.</p>
@@ -119,63 +183,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-4 card-spacing">
+                
+                <div class="col-sm-12 col-lg-4">
                     <div class="card">
-                        <iframe width="auto" height="315" src="https://www.youtube.com/embed/feCZqPs8Gsc" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                        <img src="" class="card-img-top" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" target="_blank" class="btn btn-secondary">Read Article</a>
+                            <h5 class="card-title">The Guardian 2016</h5>
+                            <p class="card-text">Pregnant and diagnosed with HIV: the group providing support for
+                                mothers.</p>
+                            <a href="https://www.theguardian.com/global-development-professionals-network/2016/sep/01/pregnant-diagnosed-hiv-support-for-mothers"
+                                target="_blank" class="btn btn-secondary">Read Article</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                    
                 </div>
             </div>
-        
-            <div class="row article-row">
-                <div class="col-sm-12 col-lg-4 card-spacing">
-                    <div class="card">
-                        <iframe width="auto" height="315" src="https://www.youtube.com/embed/y8LhUdpNkXg" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" target="_blank" class="btn btn-secondary">Read Article</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-4 card-spacing">
-                    <div class="card">
-                        <iframe width="auto" height="315" src="https://www.youtube.com/embed/7jHuyCTBpgw" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" target="_blank" class="btn btn-secondary">Read Article</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-4">
-                    
-                </div>
-            </div>
-    </section>
-    <section>
-        Other content.
-    </section>
-    <footer>
+        </section>
+        <section>
+            Other content.
+        </section>
+        <footer>
             <div id="footer-spacing" class="row">
                 <div class="col-sm-4">
                     <p class="display-inline-block">For educational purposes only</p>
@@ -218,7 +244,7 @@
                 </div>
 
             </div>
-    </footer>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"

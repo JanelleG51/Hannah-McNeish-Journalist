@@ -247,21 +247,18 @@ footer{
 
 .carousel-inner > .carousel-item > img {
   width:auto;
-  height:600px;
+  height:550px;
 }
 
-
-.article-row{
-    padding-top: 75px;
+.row-spacing{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card{
     width: auto;
+    margin-bottom: 15px;
 }
 
-.card-spacing{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 25px;
-}
 
