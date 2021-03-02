@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700&display=swap');
 
-/*--------------------------------------body--------------*/
+/*---------------------------------------------body*/
 
 body 
 {
@@ -29,7 +29,7 @@ div h3{
     display: inline-block;
 }
 
-/*----------------------------------------navigation bar---------------*/
+/*--------------------------------------------navigation bar*/
 
 .navbar-padding{
     padding-top: 25px;
@@ -71,9 +71,9 @@ div h3{
    border-bottom: 2px solid #040404;
 }
 
-/*----------------------------------------------end of navbar---------------*/
+/*--------------------------------------------------end of navbar*/
 
-/*-----------------------------------------------home page---------------*/
+/*--------------------------------------------------home page*/
 
 #hero-image-row{
     background: url('../images/hero-image-newspaper-2.jpg');
@@ -88,7 +88,7 @@ div h3{
 }
 /*--------------------credit to csstricks.com for aligment of text overlay customised to suit this project---------*/
 .hero-image-text{
-   background-color: rgba(240, 240, 240, 0.3) ;
+   background-color: rgba(240, 240, 240, 0.3);
    position: absolute;
    top: 50%;
    left: 50%;
@@ -123,7 +123,7 @@ h2{
 
 #about-row-background{
     background: url('../images/birds-on-a-wire.jpg');
-    height: 350px;
+    height: 700px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@ h2{
 }
 
 .about-row-text{
-   background-color: rgba(240, 240, 240, 0.3) ;
+   background-color: rgba(240, 240, 240, 0.7) ;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -155,6 +155,58 @@ h2{
 }
 
 /*-----------------------------------end of home page-----------*/
+
+
+
+/*-------------------------------------library page---------------*/
+
+.carousel-position{
+    margin-top: 125px;
+    margin-bottom: 75px;
+}
+
+.carousel-inner > .carousel-item > img {
+    aspect-ratio: attr(width) / attr(height);
+
+}
+
+.row-spacing{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+/*---------------------------------------end of library page-----------*/
+
+/*------------------------------------------contact page---------------*/
+
+#contact-page-background{
+    background: url('../images/birds-on-a-wire.jpg');
+    height: 925px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-position{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form-background{
+    background-color: rgba(240, 240, 240, 0.7)
+}
+
+/*----------------------------------end of contact page-----------*/
 
 /*---------------------------------------footer---------------*/
 /*---------------credit to ci walkthrough for footer styling---------------*/
@@ -207,63 +259,3 @@ footer{
     padding: 25px;
 }
 /*-------------------------------------end of footer--------------*/
-
-/*-------------------------------------library page---------------*/
-
-.carousel-padding{
-    padding-top: 125px;
-    padding-bottom: 25px;
-
-}
-
-.carousel-inner > .carousel-item > img {
-  width:612px;
-  height:408px;
-}
-
-.row-spacing{
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.card{
-    width: auto;
-    margin-bottom: 15px;
-}
-
-.card-logo{
-    height: 200px;
-    width: auto;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-/*---------------------------------------end of library page-----------*/
-
-/*------------------------------------------contact page---------------*/
-
-#contact-page-background{
-    background: url('../images/birds-on-a-wire.jpg');
-    height: 750px;
-    width: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
-
-.form-position{
-    margin-top: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.form-background{
-    background-color: rgba(240, 240, 240, 0.7)
-}
-
-
-
-/*----------------------------------end of contact page-----------*/
