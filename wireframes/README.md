@@ -42,6 +42,7 @@ Those that work in the media and related industries are the primary target audie
 
 
 
+
 # Visuals 
 
 ## Photography and Video Content
