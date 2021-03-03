@@ -92,7 +92,9 @@ div h3{
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
    color: #040404;
    text-align: center;
    padding-left: 25px;
@@ -123,7 +125,7 @@ h2{
 
 #about-row-background{
     background: url('../images/birds-on-a-wire.jpg');
-    height: 700px;
+    height: 450px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +140,9 @@ h2{
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
    color: #040404;
    text-align: center;
    padding-left: 25px;
@@ -165,10 +169,6 @@ h2{
     margin-bottom: 75px;
 }
 
-.carousel-inner > .carousel-item > img {
-    aspect-ratio: attr(width) / attr(height);
-
-}
 
 .row-spacing{
     margin-top: 50px;
@@ -224,11 +224,10 @@ footer{
     color: #040404;
     padding-top: 25px;
     font-size: 15px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
+    transition: all 0.35s ease-in-out;
+    
 }
 
 .footer-contact-link:hover{
@@ -244,10 +243,9 @@ footer{
     font-size: 20px;
     line-height: 7px;
     color:#040404;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
     
 }
 
