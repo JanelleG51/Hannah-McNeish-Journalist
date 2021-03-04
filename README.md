@@ -49,17 +49,24 @@ Those that work in the media and related industries are the primary target audie
 ## Visuals 
 
 ### Photography and Video Content
-The photography and video content used on this site are taken from [Getty Images](https://www.gettyimages.co.nz/photos/hannah-mcneish?family=editorial&phrase=hannah%20mcneish&sort=best#license) and [YouTube](https://www.youtube.com/results?search_query=hannah+mcneish) with the exception of the background images used on the [Home page](href="index.html") and [Contact page](href="contact.html"). These images were taken from [Pixbay](https://pixabay.com/photos/news-newsletter-newspaper-1591767/) and [Unsplash.](https://unsplash.com/s/photos/birds-on-a-wire)
+The photography and video content used on this site are taken from [Getty Images](https://www.gettyimages.co.nz/photos/hannah-mcneish?family=editorial&phrase=hannah%20mcneish&sort=best#license) and [YouTube](https://www.youtube.com/results?search_query=hannah+mcneish) with the exception of the background images used on the [Home page](https://janelleg51.github.io/Hannah-McNeish-Journalist/index.html) and [Contact page](https://janelleg51.github.io/Hannah-McNeish-Journalist/contact.html). These images were taken from [Pixbay](https://pixabay.com/photos/news-newsletter-newspaper-1591767/) and [Unsplash.](https://unsplash.com/s/photos/birds-on-a-wire)
 The client took all photography used on the Library page and all videos are open source. Videos remain the property of the commissioning media channel but display the reporting work of the client. Copyright infringement has not taken place. 
 
 
 ### Fonts
-- The site uses **‘Playfair Display’** font for all headings with a fall back of **‘sans-serif’**.
-- **‘Raleway’** is used for the body font with a fall back of **‘Arial’** then **‘sans-serif’**. 
+- The site uses **<span style="font-family: 'Playfair Display'; font-size:1.5em;">Playfair Display</span>** font for all headings with a fall back of **‘sans-serif’**.
+- **<span style="font-family: 'Raleway'; font-size:1.25em;">Raleway</span>** is used for the body font with a fall back of **‘Arial’** then **‘sans-serif’**. 
 - These fonts were choosen due to their closeness to the types of font used in print press as means of subconsciously conveying the work of the client.
 
 
 ### Colours
+The use of colour throughout the site is minimal with the majority of colour coming from the clients own work, this is intentional. The colour that was used by the developer focussed mainly on black and white with gradients of grey. Again, to convey the feeling of print press and the media related work of the client. While traditional print press is becoming less common, the connection between the visual stimulus, in this case the fonts and the colours, and working in the media remain the same.
+The colours used were:
+- White
+- #040404
+- rgba(240, 240, 240, 0.3)
+- rgb(239, 239, 239)
+- rgba(32, 28, 28, 0.315)
 
 
 ### Wireframes
