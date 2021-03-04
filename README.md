@@ -65,14 +65,14 @@ The client took all photography used on the Library page and all videos are open
 ### Wireframes
 The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). These provided the foundation for the visual layout of the site with very few changes occuring throughout the build.
 
-- [Home](href="wireframes/hannahhome.png")
-- [Library](href="wireframes/hannahlibrary.png")
-- [Contact](href="wireframes/hannahcontact.png")
+- [Home](wireframes/hannahhome.png)
+- [Library](wireframes/hannahlibrary.png)
+- [Contact](wireframes/hannahcontact.png)
 
 ## Features
 
 ### Existing Features 
-### Features Left to Implement 
+### Features Left to Implement
 
 ## Technologies Used
 
