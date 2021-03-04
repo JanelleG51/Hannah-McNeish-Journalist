@@ -55,17 +55,19 @@ The client took all photography used on the Library page and all videos are open
 
 ### Fonts
 - The site uses **‘Playfair Display’** font for all headings with a fall back of **‘sans-serif’**.
-- **‘Raleway’** is used for the body text with a fall back of **‘Arial’** then **‘sans-serif’**. 
-- These fonts were choose due to their closenesss to the types of font used in print press as means of subconsciously conveying the work of the client.
+- **‘Raleway’** is used for the body font with a fall back of **‘Arial’** then **‘sans-serif’**. 
+- These fonts were choosen due to their closeness to the types of font used in print press as means of subconsciously conveying the work of the client.
 
 
 ### Colours
 
-### Wireframes 
 
-#### Home
-#### Library
-#### Contact
+### Wireframes
+The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). These provided the foundation for the visual layout of the site with very few changes occuring throughout the build.
+
+- [Home](href="wireframes/hannahhome.png")
+- [Library](href="wireframes/hannahlibrary.png")
+- [Contact](href="wireframes/hannahcontact.png")
 
 ## Features
 
