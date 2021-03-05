@@ -82,6 +82,19 @@ The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). Thes
 ### Features Left to Implement
 
 ## Technologies Used
+- [HTML](https://en.wikipedia.org/wiki/HTML5) was used to stucture the content on the site.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) was used to style the presentation of the content on the site.
+- [Google Fonts](https://fonts.google.com/) provided the fonts for this site.
+- [BootstrapCDN](https://getbootstrap.com/docs/5.0/getting-started/introduction/) V.5 Beta was used for this project to assist with the structure and responsiveness of the site. This included Bootstrap's [JavaScript](https://www.javascript.com/) and [Popper](https://popper.js.org/) plugins to assist with the carousel and navbar functions used on the site.
+- [GitHub](https://github.com/join/get-started) provided the online storage space used to host and access all files and links associated with the site.
+- [GitPod](https://www.gitpod.io/) provided the cloud IDE used to build the site.
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the site and provide the overall visual layout. 
+- [Font Awesome](https://fontawesome.com/) provided the icons displayed on the site.
+- [AutoPrefixer](http://autoprefixer.github.io/) was used to ensure that the CSS code was compatible across all browsers.
+- [Pixabay](https://pixabay.com/) provided one copyright free image used on the site.
+- [Unsplash](https://unsplash.com/) provided one copyright free image used on the site.
+- [YouTube](https://www.youtube.com/) is the host of all video content displayed on the site.
+
 
 ### Testing 
 
