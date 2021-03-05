@@ -60,7 +60,7 @@ The client took all photography used on the Library page and all videos are open
 
 
 ### Colours
-The use of colour throughout the site is minimal with the majority of colour coming from the clients own work, this is intentional. The colour that was used by the developer focussed mainly on black and white with gradients of grey. Again, to convey the feeling of print press and the media related work of the client. While traditional print press is becoming less common, the connection between the visual stimulus, in this case the fonts and the colours, and working in the media remain the same.
+The use of colour throughout the site is minimal with the majority of colour coming from the clients own work, this is intentional. The colour that was used by the developer focussed mainly on black and white with gradients of grey. Again, to convey the feeling of print press and the media related work of the client. While traditional print press is becoming less common, the connection between the visual stimulus, in this case the fonts and the colours, and working in the media remain connected.
 The colours used were:
 - White
 - #040404
@@ -87,7 +87,7 @@ The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). Thes
 - [Google Fonts](https://fonts.google.com/) provided the fonts for this site.
 - [BootstrapCDN](https://getbootstrap.com/docs/5.0/getting-started/introduction/) V.5 Beta was used for this project to assist with the structure and responsiveness of the site. This included Bootstrap's [JavaScript](https://www.javascript.com/) and [Popper](https://popper.js.org/) plugins to assist with the carousel and navbar functions used on the site.
 - [GitHub](https://github.com/join/get-started) provided the online storage space used to host and access all files and links associated with the site.
-- [GitPod](https://www.gitpod.io/) provided the cloud IDE used to build the site.
+- [Gitpod](https://www.gitpod.io/) provided the cloud IDE used to build the site.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the site and provide the overall visual layout. 
 - [Font Awesome](https://fontawesome.com/) provided the icons displayed on the site.
 - [AutoPrefixer](http://autoprefixer.github.io/) was used to ensure that the CSS code was compatible across all browsers.
@@ -99,6 +99,39 @@ The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). Thes
 ### Testing 
 
 ### Deployment 
+This site was developed using [Gitpod IDE](https://www.gitpod.io/), committed to git and pushed to [GitHub.](https://github.com/join/get-started) 
+
+### Deploying 
+To deploy this site to **GitHub** pages, the steps below were taken:
+
+1. The developer logged into **GitHub.**
+2. Once logged in, the desired repository was selected from the options available to the left of the screen **JanelleG51-Hannah-McNeish-Journalist**
+3. From the possible options available, which included **Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights and Settings.** **Settings** was selected.
+4. Once in **Settings**, scrolled down the page to **GitHub Pages**.
+5. Under **Source**, clicked on the drop-down menu and changed the selection from **None** to **Master Branch**.
+6. On selecting **Master Branch**, the page automatically refreshed and the site was deployed.
+7. The deployed link then appeared in the **GitHub Pages** section. 
+
+### Forking
+Forking results in a secondary branch of the site being created. The secondary branch can be worked on simultaneously without the Master Branch being altered. The steps below should be followed:
+
+1. Log into **GitHub.**
+2. Select your desired repository from the options to the left.
+3. From the options available at the top right of the screen, which include **Watch**, **Star** and **Fork**, select **Fork**.
+4. A forked branch of the repository is then created. This is a copy of the repository up to the point the forked branch was created.
+5. Changes can then be made in the forked repository without those changes taking effect in the **Master Branch**.
+6. Both repositories can be merged by selecting **New Pull Request** from the original repository.
+
+### Cloning
+1. Log into **GitHub.**
+2. Select your desired repository from the options to the left.
+3. From the options available just above the commit list, which include **Go to File**, **Add File**, **Code** and **Gitpod**, select **Code**.
+4. From the **HTTPS** tab, copy the **URL** for the repository.
+5. Once in your **local IDE** open a new terminal.
+6. Chose the working directory where you would like the cloned directory to be created.
+7. Type **git clone** into the terminal and paste the **repository URL**.
+8. Press **enter** to finish the cloning process.
+
 
 ## Credits 
 
