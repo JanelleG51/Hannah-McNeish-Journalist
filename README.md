@@ -139,6 +139,8 @@ The form will not be submitted if the Full Name or Email Address fields are miss
 - Confirmation email – send those that make contact a confirmation email thanking them for getting in touch and a response will be provided.
 - Subscription - Allow visitors to subscribe to updates that will automatically notify subscribers of any new content.
 - Future proprietary work - including blog, Podcast and radio work.
+- Copyright information.
+- Advertising - Real estate to include potential advertising.
 
 ## Technologies Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to stucture the content on the site.
