@@ -82,7 +82,7 @@ The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). Thes
 ### Features Left to Implement
 
 ## Technologies Used
-- [HTML](https://en.wikipedia.org/wiki/HTML5) was used to stucture the content on the site.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to stucture the content on the site.
 - [CSS3](https://en.wikipedia.org/wiki/CSS) was used to style the presentation of the content on the site.
 - [Google Fonts](https://fonts.google.com/) provided the fonts for this site.
 - [BootstrapCDN](https://getbootstrap.com/docs/5.0/getting-started/introduction/) V.5 Beta was used for this project to assist with the structure and responsiveness of the site. This included Bootstrap's [JavaScript](https://www.javascript.com/) and [Popper](https://popper.js.org/) plugins to assist with the carousel and navbar functions used on the site.
@@ -96,9 +96,9 @@ The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). Thes
 - [YouTube](https://www.youtube.com/) is the host of all video content displayed on the site.
 
 
-### Testing 
+## Testing 
 
-### Deployment 
+## Deployment 
 This site was developed using [Gitpod IDE](https://www.gitpod.io/), committed to git and pushed to [GitHub.](https://github.com/join/get-started) 
 
 ### Deploying 
@@ -113,7 +113,7 @@ To deploy this site to **GitHub** pages, the steps below were taken:
 7. The deployed link then appeared in the **GitHub Pages** section. 
 
 ### Forking
-Forking results in a secondary branch of the site being created. The secondary branch can be worked on simultaneously without the Master Branch being altered. The steps below should be followed:
+Forking results in a **secondary branch** of the site being created. The **secondary branch** can be worked on simultaneously without the **Master Branch** being altered. The steps below should be followed:
 
 1. Log into **GitHub.**
 2. Select your desired repository from the options to the left.
