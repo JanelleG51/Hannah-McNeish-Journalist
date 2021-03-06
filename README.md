@@ -136,6 +136,10 @@ The form will not be submitted if the Full Name or Email Address fields are miss
 
 ### Features Left to Implement
 
+- Confirmation email – send those that make contact a confirmation email thanking them for getting in touch and a response will be provided.
+- Subscription - Allow visitors to subscribe to updates that will automatically notify subscribers of any new content.
+- Future proprietary work - including blog, Podcast and radio work.
+
 ## Technologies Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to stucture the content on the site.
 - [CSS3](https://en.wikipedia.org/wiki/CSS) was used to style the presentation of the content on the site.
