@@ -160,7 +160,7 @@ h2, h3{
 }
 
 .biography-text{
-    margin: 25px;
+    margin: 50px 25px;
 
 }
 
@@ -204,7 +204,7 @@ h2, h3{
 
 #contact-page-background{
     background: url('../images/birds-on-a-wire.jpg');
-    height: 925px;
+    height: 100%;
     width: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,9 +214,7 @@ h2, h3{
 }
 
 .form-position{
-    margin-top: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 150px 50px;
 }
 
 .form-background{

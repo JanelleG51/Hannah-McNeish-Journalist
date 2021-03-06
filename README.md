@@ -78,7 +78,62 @@ The Wireframe mockups were drafted using [Balsamiq](https://balsamiq.com/). Thes
 
 ## Features
 
-### Existing Features 
+### Features across all pages 
+The site has two common features across all three pages, the **navigation bar** and the **footer**. The responsive navigation bar is fixed to the top of all pages keeping the name and role of the client visible at all times, as well as adding ease of navigation to any page on the site, [Home](https://janelleg51.github.io/Hannah-McNeish-Journalist/index.html), [Library](https://janelleg51.github.io/Hannah-McNeish-Journalist/library.html), [Contact](https://janelleg51.github.io/Hannah-McNeish-Journalist/contact.html). Each page link highlights when scrolled over and remains underlined on the active page to let visitors know which page they are currently viewing. 
+
+The branding at the top left of the screen provides a link to the [Home](https://janelleg51.github.io/Hannah-McNeish-Journalist/index.html) page from any page on the site. On mobile devices, the navigation menu shifts to a drop down menu visible at the top of the screen at all times. 
+
+The footer contains a **Contact Hannah** link that takes visitors to the [Contact Page](https://janelleg51.github.io/Hannah-McNeish-Journalist/contact.html) and has social media links to [Twitter](https://twitter.com/?lang=en-gb), [YouTube](https://www.youtube.com/), [LinkedIn](https://uk.linkedin.com/) and [SoundCloud](https://soundcloud.com/). Colours and fonts are consistent across all pages to ensure familiarity when navigating and a consistent theme across the site.
+
+#### Home Page 
+The [Home](https://janelleg51.github.io/Hannah-McNeish-Journalist/index.html) page has: 
+- A full width hero image with a centred text overlay providing the clients name and the client’s occupation. The image chosen fulfils the immediate visual impression that the client works in media and sets the colour theme throughout the site. The text overlay provides immediate confirmation of the purpose of the site, which is to promote the client. 
+
+- An About section after the hero image provides background to the client in terms of current location and the range of media and topical areas the client works in and reports on. The background image to the About section was chosen based on its inference to **‘wiring information’** and **‘lines of communication’** to keep the overt and covert media theme of the site consistent.
+- Below the about section is a profile image of the client alongside a more detailed biography of work history and the types of commissioning agencies that the client has undertaken work for. Below this are links to redirect visitors to the **Library** or **Contact** page.
+
+#### Library Page 
+The [Library](https://janelleg51.github.io/Hannah-McNeish-Journalist/library.html) page consists of: 
+- A ***centred Carousel*** displaying images of the clients work at the top of the page. 
+- ***Three YouTube links*** contained in display cards sit below the carousel. These links are fully controlled by the user and can be played from their starting position in the card container or can be opened out to full screen – ***video does not auto play.***
+- ***Six article links*** each contained within display cards. Each card contains a photo taken by the client that is relevant to the article, the name of the publisher and year of the publication, a brief abstract and a Read Article button to direct visitors to the article.
+- Below this are ***eight cards inviting visitors to view more of the clients work***. Each card contains the logo of the site or publication the user would be directed to and a link button that takes visitors directly to the client’s work hosted on each site.
+
+#### Contact Page 
+The [Contact](https://janelleg51.github.io/Hannah-McNeish-Journalist/contact.html) page:
+
+- Carries over the background image from the Home page About section and presents it across full width and height of the page.
+- Has a simple, clearly visible contact form positioned centrally on the page.  Visitors are asked to complete their Full Name, Reason for Contact (Journalism, Photography, Consultancy or General), Email Address and Message then press Submit 
+The form will not be submitted if the Full Name or Email Address fields are missing or incomplete. 
+
+
+### Existing Features
+**Branding** 
+
+- Situated at the top left of the screen and present across all pages allowing users to navigate to home page from anywhere on the site.
+
+**Navigation bar**
+- Situated at the top right of the screen and present across all pages allowing users to navigate to any page on the site at any time. This also provides a visual to which page the user is currently viewing. Links shift to a dropdown menu on mobile devices which is present across all pages.
+**
+
+**Footer**
+- Contains a Contact Hannah link and social media links to Twitter, YouTube, LinkedIn and SoundCloud and is situated on all pages.
+
+**Home Page About** 
+- Provides clear but brief information about the client including their location and areas of work.
+
+**Home Page Biography**
+- Provides more detail about the client’s work history and call to action buttons invite visitors to view more work or make contact.
+
+
+**Library Page**
+
+- Provides visitors with a view of the client’s work and each card contains a link button to read or view more, letting the visitor decide for themselves what they would like to view without crowding the page with every available piece of work.
+
+**Contact Page**
+
+- Provides a contact form to contact the client, options for reason for contact and a message facility.
+
 ### Features Left to Implement
 
 ## Technologies Used
