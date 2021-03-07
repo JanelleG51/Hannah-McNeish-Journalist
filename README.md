@@ -191,9 +191,29 @@ Potential Commissioners
 - The **form** completion process has four fields asking the **minimum required information**.
 11.	As a potential commissioner, I expect to receive feedback when submitting the Contact Form.
 - On submitting the contact form, visitors are taken to a **confirmation page**.
+
 Returning Users
+
 12.	As a returning user, I would like to be notified of any new content.
 - As new content is added to the site a **notification** will be added to the **Home** page. A future feature is to allow visitors to sign up to receive email notifications when new content is added.
+
+## Manual Functionality Testing
+
+Function | Purpose | Fulfilled
+-------- | ------- | ---------
+Navigation Bar | Branding at top left of screen redirects to Home page when clicked. | Yes
+Navigation Bar | Menus items at top right of screen redirect to Home, Library and Contact pages. | Yes
+Navigation Bar | Menus items at top right of screen reduce to drop down menu on mobile devices. | Yes
+Home Page Biography Links | Links redirect visitors to Library and Contact pages. | Yes
+Library Page Carousel | Images at top of page scoll from left to right across all device sizes. | Yes
+Library Page YouTube Links | Links do not autoplay and visitors have full control over playback, size and volume. | Yes
+Library Page Article Links | All links contained within the article cards redirect the user to external pages where the article/s, images and further work are hosted | Yes
+
+
+
+
+
+
 
 
 ## Deployment 
