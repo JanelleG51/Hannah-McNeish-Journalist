@@ -217,7 +217,7 @@ Footer Social Media Links | Background changes to white when hovered over and li
 Responsiveness | Reduce and expand all pages to ensure each page responds as expected. Reducing or expanding the number of columns, pictures, text, forms, icons and video in line with the device size the site is being viewed on as expected. | Yes
 
 
-Lighthouse Results for Mobile (Incognito)
+**Lighthouse Results for Mobile (Incognito)**
 
 Page | Performance | Accessibility | Best Practice | SEO 
 -----|-------------|-------------- |---------------|-----
@@ -226,7 +226,12 @@ Library | 77 | 100 | 86 | 100
 Contact | 98 | 100 | 100 | 100
 
 
+**External Testing**
 
+- The developer viewed the site across several devices. 
+- The site was shared with a group of the developers peers.
+
+All points are addressed in Issues and Fixes.
 
 
 
@@ -267,8 +272,22 @@ Forking results in a **secondary branch** of the site being created. The **secon
 8. Press **enter** to finish the cloning process.
 
 
-## Credits 
+## Credits
 
 ### Content 
+
+- Backgroud images for this site were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/). All other photography was taken by the client, Hannah McNeish.
+
+### Code 
+
+The developer sought guidance from various sources but credit must go to:
+- [CSS-Tricks](https://css-tricks.com/design-considerations-text-images/) for the text overlay code for the site.
+- [Bootstrap V5 Beta](https://getbootstrap.com/docs/5.0/getting-started/introduction/) for the navigation bar, carousel and display card HTML.
+- Code Institute Love Running walkthrough for the social media icon styling.
 ### Media 
+
+- All photography displayed on the Library page was taken by the client, Hannah McNeish.
+- All video content is hosted on [YouTube](https://www.youtube.com/) but produced by the **BBC**, **INews24** and the **International Journalism Festival**.
 ### Acknowledgements
+
+The developer is grateful for all guidance received throughout the development of this site with special thanks to Hannah McNeish, Victor Miclovich (Mentor) and the CI Slack Community.
