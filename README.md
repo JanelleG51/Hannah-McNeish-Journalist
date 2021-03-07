@@ -44,8 +44,6 @@ Those that work in the media and related industries are the primary target audie
 1. As a returning user, I would like to be notified of any new content.
 
 
-
-
 ## Visuals 
 
 ### Photography and Video Content
@@ -158,6 +156,45 @@ The form will not be submitted if the Full Name or Email Address fields are miss
 
 
 ## Testing 
+
+The developer used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) Service and [W3C Markup Validation](https://validator.w3.org/) Service to check the validity of the site code.
+
+User Stories testing:
+New users
+1.	As a new user, I would like to understand the sites purpose at first glance.
+- The name and occupation of the client are the first visual a visitor sees when landing on the **Home** page of the site.
+- If a user arrives at the site on any page other than the **Home** page, the **branding** at the top left of the screen also states the name and occupation of the client. This is **visible across all pages** and also links to the **Home** page.
+2.	As a new user, I want to see the client’s work so I can decide if I would like to hire their services or make contact.
+- The site has a **Library** page dedicated to the work of the client which is linked to through the **menu items at the top of the page** and in the client’s **biography section** on the Home page.
+3.	As a new user, I want the context of the work carried out by the client to be clear.
+- The **Home** page contains a brief **About section and Biography** of the client that clearly outlines the areas of work investigated and where in the world the client has been based.
+- The **Library** page provides **abstracts** to explain the content of the articles on display allowing visitors to understand the context before proceeding any further.
+4.	As a new user, I would like the sites navigation to be intuitive.
+- The natural flow of the website is ***Home > Library > Contact*** and each page provides progressively more information about the work of client.
+- Visitors **do not** need to scroll to the **top of the page** to access any page as they can be linked to through the fixed **navigation bar**, the **footer** and from the Home page **biography section**.
+5.	As a new user, I expect control over video/media playback.
+- Video content on the site **does not auto play** and the user has **full control** over the playback options.
+6.	As a new user, I expect all images to be of high quality.
+- All **background images** used are of the **appropriate resolution** and size for the their purpose. The client’s photography have been displayed relative to their **original rendering** to ensure **best presentation**. 
+7.	As a new user, I expect appropriate feedback for any interactive elements.
+- All video content **plays when selected**, the **Contact** form provides **confirmation feedback** and all **external links** open in a **separate page**.
+
+
+Potential Commissioners
+
+8.	As a potential commissioner, I want the site to be up to date.
+- Content on the **Library** page is presented in **date order** and all new content will appear first. A **future feature** is to allow visitors to sign up to receive **email notifications** when **new content** is added.
+9.	As a potential commissioner, I want to be able to follow the journalist’s social media channels.
+- The client’s **social media** links can be accessed through the **Footer**, a feature that is present across all pages.
+10.	As a potential commissioner, I want the contact process to be easily visible and uncomplicated.
+- Links to the **Contact** page are present in the **navigation** bar menu items and **footer** across all pages, and below the biography on the **home** page.
+- The **form** completion process has four fields asking the **minimum required information**.
+11.	As a potential commissioner, I expect to receive feedback when submitting the Contact Form.
+- On submitting the contact form, visitors are taken to a **confirmation page**.
+Returning Users
+12.	As a returning user, I would like to be notified of any new content.
+- As new content is added to the site a **notification** will be added to the **Home** page. A future feature is to allow visitors to sign up to receive email notifications when new content is added.
+
 
 ## Deployment 
 This site was developed using [Gitpod IDE](https://www.gitpod.io/), committed to git and pushed to [GitHub.](https://github.com/join/get-started) 
