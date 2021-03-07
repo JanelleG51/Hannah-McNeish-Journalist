@@ -1,5 +1,45 @@
-## Hannah McNeish Journalist
-A website designed to consolidate the client’s body of work allowing users to learn about the client, view their work and submit enquiries relating to research, copyright and work requests as well as general enquires. Features include clear presentation and information about the client’s career, a library of the clients work and a contact page. The purpose being to generate business for the client and provide control over the any future additions of proprietary works such as blogs, vlogs and podcasts. 
+## Table of Contents
+  * [Client Objectives](#client-objectives)
+  * [Visitor Objectives](#visitor-objectives)
+- [UX](#ux)
+  * [Target Audience](#target-audience)
+  * [User Stories](#user-stories)
+    + [New users](#new-users)
+    + [Potential Commissioners](#potential-commissioners)
+    + [Returning Users](#returning-users)
+- [Visuals](#visuals)
+  * [Photography and Video Content](#photography-and-video-content)
+  * [Fonts](#fonts)
+  * [Colours](#colours)
+  * [Wireframes](#wireframes)
+- [Features](#features)
+  * [Features across all pages](#features-across-all-pages)
+    + [Home Page](#home-page)
+    + [Library Page](#library-page)
+    + [Contact Page](#contact-page)
+  * [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Manual Functionality Testing](#manual-functionality-testing)
+  * [Issue and Fixes](#issue-and-fixes)
+- [Deployment](#deployment)
+  * [Deploying](#deploying)
+  * [Forking](#forking)
+  * [Cloning](#cloning)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Code](#code)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
+
+## Hannah McNeish - Journalist
+A website designed to consolidate the client’s body of work. This will allow users to learn about the client, view their work and submit enquiries relating to research, work requests and general enquires. Features include information about the client’s career, a library of the client's work and a contact page. The purpose is to generate business for the client and provide control over the any future additions of proprietary works such as blogs, vlogs and podcasts. 
 
 The website has been designed to showcase the client’s work ensuring all visuals and features, such as navigation links and colours, are understated but complimentary to the content and context of the clients work. The target audience is those predominantly working in the media sector.
 
