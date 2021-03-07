@@ -217,6 +217,16 @@ Footer Social Media Links | Background changes to white when hovered over and li
 Responsiveness | Reduce and expand all pages to ensure each page responds as expected. Reducing or expanding the number of columns, pictures, text, forms, icons and video in line with the device size the site is being viewed on as expected. | Yes
 
 
+Lighthouse Results for Mobile (Incognito)
+
+Page | Performance | Accessibility | Best Practice | SEO 
+-----|-------------|-------------- |---------------|-----
+Home | 97 | 100 | 100 | 100
+Library | 77 | 100 | 86 | 100
+Contact | 98 | 100 | 100 | 100
+
+
+
 
 
 
