@@ -160,6 +160,7 @@ The form will not be submitted if the Full Name or Email Address fields are miss
 The developer used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) Service and [W3C Markup Validation](https://validator.w3.org/) Service to check the validity of the site code.
 
 User Stories testing:
+
 New users
 1.	As a new user, I would like to understand the sites purpose at first glance.
 - The name and occupation of the client are the first visual a visitor sees when landing on the **Home** page of the site.
@@ -201,14 +202,19 @@ Returning Users
 
 Function | Purpose | Fulfilled
 -------- | ------- | ---------
-Navigation Bar | Branding at top left of screen redirects to Home page when clicked. | Yes
-Navigation Bar | Menus items at top right of screen redirect to Home, Library and Contact pages. | Yes
-Navigation Bar | Menus items at top right of screen reduce to drop down menu on mobile devices. | Yes
-Home Page Biography Links | Links redirect visitors to Library and Contact pages. | Yes
+Navigation Bar | Branding at top left of screen redirects to Home page when clicked and this is consistent across all pages. | Yes
+Navigation Bar | Menus items at top right of screen redirect to Home, Library and Contact pages. The active page is indicated by a solid line underneath. When hovered over, each link highlights with and underline for the duration of the hover. This is consistent across all pages.  | Yes
+Navigation Bar | Menus items at top right of screen reduce to drop down menu on mobile devices. This is consistent across all pages. | Yes
+Home Page Biography Links | Links redirect visitors to Library and Contact pages. Buttons change presentation when hovered over. | Yes
 Library Page Carousel | Images at top of page scoll from left to right across all device sizes. | Yes
 Library Page YouTube Links | Links do not autoplay and visitors have full control over playback, size and volume. | Yes
-Library Page Article Links | All links contained within the article cards redirect the user to external pages where the article/s, images and further work are hosted | Yes
-
+Library Page Article Links | All links contained within the article cards redirect the user to external pages where the article/s, images and further work are hosted. Buttons change presentation when hovered over. | Yes
+Contact Page | Contains a form to allow visitors to contact the client if they wish. | Yes
+Contact Form Validation | Visitors are unable to submit the form without completing the Full Name and Email fields. All other fields are optional. | Yes
+Contact Form Confirmation | On submitting the contact form, visitors are redirected to a confirmation page thanking the for getting in touch. | Yes
+Footer Contact Link | Contact Hannah link redirects visitors to the Contact page. This is consistent across all pages. | Yes
+Footer Social Media Links | Background changes to white when hovered over and links take visitors to an external page for each specific site. This is consistent across all pages. | Yes
+Responsiveness | Reduce and expand all pages to ensure each page responds as expected. Reducing or expanding the number of columns, pictures, text, forms, icons and video in line with the device size the site is being viewed on as expected. | Yes
 
 
 
