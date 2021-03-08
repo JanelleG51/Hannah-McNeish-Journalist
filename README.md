@@ -1,3 +1,4 @@
+![Am I Responsive Image](assets/images/amIresponsive.png)
 ## Table of Contents
   * [Client Objectives](#client-objectives)
   * [Visitor Objectives](#visitor-objectives)
