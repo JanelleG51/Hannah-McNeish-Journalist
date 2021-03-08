@@ -101,11 +101,11 @@ The client took all photography used on the Library page and all videos are open
 ### Colours
 The use of colour throughout the site is minimal with the majority of colour coming from the clients own work, this is intentional. The colour that was used by the developer focussed mainly on black and white with gradients of grey. Again, to convey the feeling of print press and the media related work of the client. While traditional print press is becoming less common, the connection between the visual stimulus, in this case the fonts and the colours, and working in the media remain connected.
 The colours used were:
-- White
-- #040404
-- rgba(240, 240, 240, 0.3)
-- rgb(239, 239, 239)
-- rgba(32, 28, 28, 0.315)
+- #fff - White
+- #040404 - Black
+- rgba(240, 240, 240, 0.3) Light Grey with opacity 
+- rgb(239, 239, 239) Light Grey
+- rgba(32, 28, 28, 0.315) Darker Grey 
 
 
 ### Wireframes
@@ -276,6 +276,18 @@ All points are addressed in Issues and Fixes.
 
 ### Issue and Fixes
 
+Issue | Fix |
+------|-----|
+Client's own images were not of high enough resolution or size to display full width. | Reduced the size of the carousel to match the original image size to improve presentation.
+White panel appearing to right side of screen view after setting width, padding and gutters set to 0. | Changing hero image from image tag in html to CSS background image.
+Site load time significantly reduced due to Bootstrap JavaScript CDN | The developer's knowledge is limited at this time but added ***defer*** to script to allow essential page content to parse first.
+Menu item burger icon dropping below the branding on the navigation bar on screens <365px. | Added a media query to reduce the size of the branding on screens <365px.
+Slight horizontal scroll occuring on mobile devices. | Added  overflow-x: hidden !important; to body and container fluid classes in CSS.
+W3C Markup Validator returned errors on the Library page  ***Bad value auto for attribute width on element iframe: Expected a digit but saw a instead.*** | Setting a numerical value to the width of the iframe caused the video to spill out of the card container. Creating a fixed width meant the iframe was not responsive changes in size. The developer therefore deemed it better user experience to keep the width relative to the card it is contained in to keep it responsive across all devices.
+
+
+
+
 
 
 
@@ -283,7 +295,7 @@ All points are addressed in Issues and Fixes.
 ## Deployment 
 This site was developed using [Gitpod IDE](https://www.gitpod.io/), committed to git and pushed to [GitHub.](https://github.com/join/get-started) 
 
-### Deploying 
+### Deploying
 To deploy this site to **GitHub** pages, the steps below were taken:
 
 1. The developer logged into **GitHub.**
