@@ -72,7 +72,7 @@ div h3{
    border-bottom: 2px solid #040404;
 }
 
-/*--------------------------------------------------end of navbar*/
+/*--------------------------------------------------end of navigation bar*/
 
 /*--------------------------------------------------home page*/
 
@@ -102,6 +102,7 @@ div h3{
    padding-right: 25px;
    
 }
+/*----------------credit end-------------------------------------------------------------------------------------------*/
 
 h1{
   text-transform: uppercase;
@@ -172,12 +173,7 @@ h2, h3{
 .bio-buttons{
     margin: 10px;
 }
-
-
-
 /*-----------------------------------end of home page-----------*/
-
-
 
 /*-------------------------------------library page---------------*/
 
@@ -185,7 +181,6 @@ h2, h3{
     margin-top: 125px;
     margin-bottom: 75px;
 }
-
 
 .row-spacing{
     margin-top: 10px;
@@ -224,7 +219,8 @@ h2, h3{
 /*----------------------------------end of contact page-----------*/
 
 /*---------------------------------------footer---------------*/
-/*---------------credit to ci walkthrough for footer styling---------------*/
+
+/*---------------credit to ci walkthrough for footer social media icon styling---------------*/
 footer{
     background-color: rgba(32, 28, 28, 0.315);
     min-height: 100px;
